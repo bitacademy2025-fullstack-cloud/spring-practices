@@ -11,10 +11,10 @@ public class App {
 
 	public static void main(String[] args) {
 		// @After, @Before, @AfterRetunring, @Around
-		// test01();
+		test01();
 		
 		// @After, @Before, @AfterThrowing, @Around
-		test02();
+		// test02();
 	}
 	
 	public static void test01() {
