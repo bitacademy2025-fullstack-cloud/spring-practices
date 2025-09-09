@@ -1,7 +1,6 @@
 package com.bit2025.hellospring.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,6 +17,7 @@ public class UserController {
 
 	@RequestMapping(value="/join", method=RequestMethod.GET)
 	public String join() {
+		System.out.println("UserController.join() called [GET]");
 		return "/WEB-INF/views/join.jsp";
 	}
 	
